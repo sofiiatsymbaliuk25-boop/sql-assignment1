@@ -42,7 +42,7 @@ INSERT INTO Suppliers (SupplierName, Country) VALUES ('Cropp', 'Польща'), 
 INSERT INTO Products (ProductName, Price, CategoryID, SupplierID) VALUES 
 ('Блакитна футболка', 500, 2, 1), ('Чорні штани', 1500, 1, 2), ('Зелений світер', 700, 3, 3);
 INSERT INTO Clients (ClientName) VALUES ('Орест Журба'), ('Катерина Мельник');
-INSERT INTO Orders (ClientID, ProductID, OrderDate, Quantity) VALUES (1, 1, '22/06/2026', 2), (2, 2, '23/06/2026', 1);
+INSERT INTO Orders (ClientID, ProductID, OrderDate, Quantity) VALUES (1, 1, '2026-06-22', 2), (2, 2, '2026-06-22', 1);
 
 WITH OrderDetails AS (
     SELECT 
